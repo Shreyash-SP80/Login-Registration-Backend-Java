@@ -59,7 +59,44 @@ src/
 
 ### Steps to Run Locally
 
-1. **Clone the Repository**
+## 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Shreyash-Sp80/Login-Registration-Backend-Java.git
+   ```
+
+## 2. Database Setup
+
+Run the following SQL commands in your Oracle SQL*Plus or SQL Developer tool to create the table, sequence, and trigger:
+
+```sql
+CREATE TABLE users (
+    id INT PRIMARY KEY,
+    uname   VARCHAR2(50),
+    upwd    VARCHAR2(150),
+    uemail  VARCHAR2(50),
+    umobile VARCHAR2(20)
+);
+
+-- Create sequence for auto-incrementing ID
+CREATE SEQUENCE users_seq
+START WITH 1
+INCREMENT BY 1;
+
+-- Create trigger to automatically assign ID from sequence
+CREATE OR REPLACE TRIGGER users_bi
+BEFORE INSERT ON users
+FOR EACH ROW
+BEGIN
+   SELECT users_seq.NEXTVAL
+   INTO :new.id
+   FROM dual;
+END;
+/
 ```
+
+## 3. 🔧 Application Setup & Installation
+Prerequisites
+- Java Development Kit (JDK) version 8 or higher.
+- Apache Tomcat server (version 9.x or higher).
+- Oracle Database installed and running.
+- Eclipse IDE for Enterprise Java and Web Developers (optional but recommended).
