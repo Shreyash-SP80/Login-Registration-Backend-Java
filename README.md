@@ -47,3 +47,19 @@ src/
 ├── register.jsp # User registration form
 └── message.jsp # Page for displaying messages/errors
 ```
+
+
+## 🔧 Setup & Installation
+
+### Prerequisites
+1. **Java Development Kit (JDK)** version 8 or higher.
+2. **Apache Tomcat** server (version 9.x or higher).
+3. **Oracle Database** installed and running.
+4. **Eclipse IDE for Enterprise Java and Web Developers** (optional but recommended).
+
+### Steps to Run Locally
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Shreyash-Sp80/Login-Registration-Backend-Java.git
+```
