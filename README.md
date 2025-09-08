@@ -10,7 +10,7 @@ A secure and functional web application demonstrating core backend development w
 - **Database Integration:** All user data is persistently stored and retrieved using JDBC to connect to an Oracle SQL database.
 - **Server-Side Validation:** Basic validation is implemented to ensure data integrity.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Backend:** Java, Java Servlets
 - **Frontend:** JSP (JavaServer Pages), HTML, CSS
