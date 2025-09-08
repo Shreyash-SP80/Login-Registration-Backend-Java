@@ -107,3 +107,12 @@ Prerequisites
    1. ojdbc14.jar - Oracle JDBC driver for database connectivity
    2. jbcrypt-0.4.jar - For password encryption (download from: https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.4/)
 
+
+### Key Changes Made for Your Database:
+
+1.  **Database Setup Section:** Added a dedicated section with your exact SQL commands for creating the `users` table, sequence, and trigger.
+2.  **Configuration Note:** Added a note in the setup steps reminding to place the Oracle JDBC JAR in the `WEB-INF/lib/` folder.
+3.  **Usage Instructions:** Updated the registration step to mention the specific fields (`uname`, `upwd`, `uemail`, `umobile`) that your table uses.
+
+This README now accurately reflects your project's database schema and provides clear instructions for anyone who wants to set it up.
+
