@@ -100,3 +100,10 @@ Prerequisites
 - Apache Tomcat server (version 9.x or higher).
 - Oracle Database installed and running.
 - Eclipse IDE for Enterprise Java and Web Developers (optional but recommended).
+
+
+## 4. Required Libraries (JAR Files)
+- Copy and paste the following required JAR files into your webapp/WEB-INF/lib/ directory:
+   1. ojdbc14.jar - Oracle JDBC driver for database connectivity
+   2. jbcrypt-0.4.jar - For password encryption (download from: https://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.4/)
+
