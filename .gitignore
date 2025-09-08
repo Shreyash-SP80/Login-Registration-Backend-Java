@@ -1,0 +1,35 @@
+/build/
+# Compiled classes
+*.class
+*.war
+
+# Eclipse files
+.metadata/
+bin/
+.settings/
+.classpath
+.project
+
+# Log files
+*.log
+logs/
+
+# Dependency libraries (don't commit JARs)
+WebContent/WEB-INF/lib/
+
+# Environment/config files with secrets
+*.properties
+*.config
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+dist/
+target/
+
+# Database files (if any)
+*.db
+*.sqlite
