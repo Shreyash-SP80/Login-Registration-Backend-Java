@@ -1,4 +1,4 @@
-# Java Servlet JSP Login & Registration System 
+# Java Servlet JSP Login & Registration System
 
 A secure and functional web application demonstrating core backend development with Java Servlets and JSP. This project implements a complete user authentication flow, including registration, login, and session management, connecting to an Oracle database via JDBC. The focus is purely on server-side logic and architecture.
 
